@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Logowanie</title>
+</head>
+<body class="bg-gray-100">
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded shadow-md w-full max-w-sm">
+
+      <h2 class="text-2xl font-bold text-center mb-6">Zaloguj się</h2>
+
+      <form action="#" method="POST">
+        <div class="mb-4">
+          <label for="email" class="block mb-2 text-sm font-medium">Adres e-mail</label>
+          <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <div class="mb-4">
+          <label for="password" class="block mb-2 text-sm font-medium">Hasło</label>
+          <input type="password" id="password" name="password" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <div class="text-right mb-4">
+          <a href="#" class="text-sm text-blue-600 hover:underline">Zapomniałeś hasła?</a>
+        </div>
+        <button type="submit" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">Zaloguj się</button>
+      </form>
+
+      <p class="text-center text-sm text-gray-600 mt-6">Nie jesteś użytkownikiem?<a href="#" class="text-blue-600 hover:underline"> Zarejestruj się</a></p>
+    </div>
+  </div>
+</body>
+</html>
